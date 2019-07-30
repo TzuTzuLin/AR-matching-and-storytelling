@@ -1,0 +1,79 @@
+It is a self-developed project I did in 2019.
+
+It is an AR matching and storytelling game for children at 5-9 years old and their parents,
+which was aiming for enhancing parent-child interactions. 
+
+I planned and created the whole game concept.  
+I developed this game with Unity and tested it with parents, children, 
+and some experts who have children teaching experiences alone with interviews as well. 
+
+I have been self-learning how to develope a game in Unity with C#. 
+This project is the one i am proud of the most because many people have tried it and most of them liked it and gave me many feedbacks.
+This AR application not only could help with enhancing the interactions between parents and children, 
+it could also be combined with lots of educative content for children to learn while playing.
+I really enjoy when people feel happy about playing the game I designed and I am the one who is able to improve the game to a even better one. 
+
+I learnt to use Vuforia with Unity, to code the interations between each 3D characters, to design the game machanism, 
+and also to export the game to digital devices and so on. 
+
+
+//
+Instruction of the AR applicaiton: 
+
+In this AR application, market tracking technique is used, 
+which means the corresponding image descriptors(markers) are provided beforehand and stored into the database. 
+This project used Vuforia as the database to store information of the markers. 
+And those markers were printed out and made to tangible cards afterwards.
+
+The whole AR application takes around forty minutes to one hour to play.
+There are three main modes, which are AR exploration, matching game, and storytelling. 
+
+1.
+AR exploration is like a warm-up of playing matching game and storytelling. 
+When parents and children are exploring different animations and interactions of each AR marker, 
+they can have more discussions and conversations about what they found and what they thought. 
+Different AR cards have different interactions, those may show separately or in pairs. 
+Some of those even have buttons showing on the screen of the phone,
+so players can click on those to have more interactions with the AR cards. 
+AR exploration is a mode which brings surprises to players. 
+
+2.
+Matching game has collaboration mode and competition mode. 
+There are six pairs (twelve cards) of matching AR cards in total. 
+Matching game can improve children’s eye-hand coordination and memory. 
+Because of the timer in the collaboration mode, 
+parents and children have more intensive conversations in order to complete the game as fast as possible. 
+
+a.	Collaboration
+Put the chosen pairs based on the difficulty you selected and flip all of those to the back sides. 
+For each time, flip two cards and use the camera to detect the two cards at the same time. 
+If it is a wrong pair, there will be a big red cross showing on the screen with a sound effect. 
+Flip those two cards back and flip other two cards until you get a correct pair. 
+When you get a correct pair, the character will move towards the item until it touches the item and you will get one point, 
+which shows at the top-up corner of the screen. 
+Move away the matching pair and continue to flip other cards until you found all the matching cards. 
+When the game ends, the time you spent will be shown on the middle of the screen.
+
+b.	Competition
+Parents and children take turns to flip cards. 
+Put the chosen pairs based on the difficulty you selected and flip all of those to the back sides. 
+One play starts to flip two cards and use the camera to detect the two cards at the same time. 
+There is a colored frame which indicates whose turn. 
+If it is a wrong pair, there will be a big red cross showing on the screen with a sound effect. 
+Then the colored frame changes to another color, which means it changes to the other player’s turn. 
+If one player got a correct pair, move away the matching pair and the turn remains. 
+When all the cards are matched, the game ends, end the application shows who the winner is on the screen.
+
+
+3.
+Three AR background cards are added in the storytelling mode. 
+Players can use one of them as a background and put character cards and item cards into the scene to tell stories. 
+Besides, players can click on the BGM (background music) button to have background music playing while telling stories.
+
+In this mode, the AR application provides some random elements and shows those on the screen. 
+Parents can be a boss and guide their children to tell stories by controlling those buttons on the right-hand side of the screen. 
+If paerents click “More”, there will be more random elements showing up. 
+Parents can also click on “rain” or “fire” to make some incidents happen to help children to create more interesting stories. 
+When parents think a story is finished, they can click on “Pass”, 
+so the application will provide another new random element as a new topic of a story. 
+Also, it notes how many stories the children have told on the top-left side of the screen.
