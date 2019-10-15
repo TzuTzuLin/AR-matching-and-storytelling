@@ -20,7 +20,7 @@ and also to export the game to digital devices and so on.
 //
 Instruction of the AR applicaiton: 
 
-In this AR application, market tracking technique is used, 
+In this AR application, marker tracking technique is used, 
 which means the corresponding image descriptors(markers) are provided beforehand and stored into the database. 
 This project used Vuforia as the database to store information of the markers. 
 And those markers were printed out and made to tangible cards afterwards.
