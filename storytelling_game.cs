@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 
 public class storytelling_game : MonoBehaviour {
 
-	//public GameObject raineffect;
 	public GameObject fireeffect;
 	public GameObject fireeffect1;
 	public GameObject fireeffect2;
@@ -36,13 +35,12 @@ public class storytelling_game : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		//raineffect.SetActive (false);
 		fireeffect.SetActive (false);
 		fireeffect1.SetActive (false);
 		fireeffect2.SetActive (false);
 		moreitembutton1.SetActive (false);
 		moreitembutton2.SetActive (false);
-		// 2 backgrounds
+		// 3 backgrounds
 		x = Random.Range(0, 3);
 		//English version
 		/*if (x == 0) {
